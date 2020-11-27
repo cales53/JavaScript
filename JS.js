@@ -1,11 +1,12 @@
 function myFunction(p)
 {
   var x = prompt("Cual es tu nombre");
-  //var p = 0;
-  //p = p.value;
   if (p > 90)
   {
     console.log("gordo");
+  }
+  else if (p < 20) {
+    console.log("demasiado liviano");
   }
   else
   {
