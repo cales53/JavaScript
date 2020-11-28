@@ -1,1 +1,3 @@
-SELECT * FROM medidas.dbo.personas;
+USE medidas
+SELECT * FROM personas
+GO
