@@ -1,5 +1,9 @@
 function myFunction(p)
 {
+  USE medidas
+  SELECT * FROM personas
+  GO
+
   var x = prompt("Cual es tu nombre");
   if (p > 90)
   {
